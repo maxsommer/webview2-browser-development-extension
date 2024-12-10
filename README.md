@@ -1,16 +1,9 @@
 # Webview 2 Browser Development Extension
 
-## Setup
+## Running and developing the extension
 
 ```sh
 npm install
-cd examples/sample-webview-application
-npm install
-```
-
-## Developing locally
-
-```sh
 npm run devext
 ```
 
@@ -18,6 +11,7 @@ npm run devext
 
 ```sh
 cd examples/sample-webview-application
+npm install
 npm run dev -- --open
 ```
 
