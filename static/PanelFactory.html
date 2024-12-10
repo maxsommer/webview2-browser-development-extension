@@ -3,17 +3,6 @@
 		<title>PanelFactory</title>
 	</head>
 	<body>
-		<script>
-			(() => {
-				if (chrome?.devtools?.inspectedWindow) {
-					chrome.devtools.panels.create(
-						'Webview2',
-						'favicon.png',
-						'index.html',
-						(panel) => {}
-					);
-				}
-			})();
-		</script>
+		<script src="PanelFactory.js"></script>
 	</body>
 </html>
