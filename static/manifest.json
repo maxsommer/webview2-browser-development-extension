@@ -1,0 +1,16 @@
+{
+	"name": "WebView2 Browser Development Extension",
+	"description": "For people developing web based user interfaces for WebView2 components, that want to run their code in a browser not embedded in the actual WebView2.",
+	"version": "0.0.1",
+	"manifest_version": 3,
+	"action": {
+		"default_title": "WebView2 Browser Development Extension",
+		"default_icon": "favicon.png",
+		"default_popup": "index.html"
+	},
+	"permissions": ["scripting", "activeTab"],
+	"devtools_page": "PanelFactory.html",
+	"externally_connectable": {
+		"matches": ["http://*/*"]
+	}
+}
